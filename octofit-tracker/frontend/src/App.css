@@ -1,0 +1,121 @@
+
+body {
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  color: #22223b;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Logo styling */
+.octofit-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+/* Navbar styling */
+.navbar {
+  background: linear-gradient(90deg, #4f8cff 0%, #6a82fb 100%);
+  box-shadow: 0 2px 8px rgba(80, 80, 160, 0.08);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.navbar-nav .nav-link.active {
+  color: #ffe066 !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+  color: #3a3a7c;
+  font-weight: 700;
+}
+
+/* Table styling */
+.table {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(80, 80, 160, 0.06);
+  overflow: hidden;
+}
+.table thead {
+  background: #4f8cff;
+  color: #fff;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f0f4ff;
+}
+.table-striped tbody tr:nth-of-type(even) {
+  background-color: #e0e7ff;
+}
+
+/* Button styling */
+.btn-primary {
+  background: linear-gradient(90deg, #4f8cff 0%, #6a82fb 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(80, 80, 160, 0.10);
+}
+.btn-primary:hover {
+  background: linear-gradient(90deg, #6a82fb 0%, #4f8cff 100%);
+  color: #ffe066;
+}
+
+/* Link styling */
+a, .App-link {
+  color: #4f8cff;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #6a82fb;
+}
+
+/* Card styling */
+.card {
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(80, 80, 160, 0.08);
+  border: none;
+}
+
+/* Modal styling */
+.modal-content {
+  border-radius: 16px;
+}
+
+/* Form styling */
+.form-control:focus {
+  border-color: #4f8cff;
+  box-shadow: 0 0 0 0.2rem rgba(79, 140, 255, 0.15);
+}
+
+/* Favicon and logo tweaks */
+.app-favicon {
+  width: 32px;
+  height: 32px;
+}
+
+/* Utility */
+.mt-4 {
+  margin-top: 2rem !important;
+}
+.mb-4 {
+  margin-bottom: 2rem !important;
+}
+.text-primary {
+  color: #4f8cff !important;
+}
+.text-accent {
+  color: #ffe066 !important;
+}
